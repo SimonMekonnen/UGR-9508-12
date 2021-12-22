@@ -1,1 +1,4 @@
-# UGR-9608-12
+# Personal Portfolio and portfolio pages
+
+Name: Simon Mekonnen
+ID:  UGR-9508-12
