@@ -1,0 +1,85 @@
+section{
+    background-color: rgb(199, 199, 199);
+    z-index: -1;
+    position: relative;
+}
+
+.email{
+ margin-top: 5%;
+}
+.comment{
+    margin-top: 6%;
+    background-color: black;        
+}
+.entername{
+    display: block;
+    margin: auto;
+    width: 50%;
+    box-shadow:  10px 10px 10px rgb(34, 33, 33);
+    padding: 10px;
+    background-color: rgb(22, 31, 58);
+}
+textarea{
+    background-color: black;
+}
+input{
+    transition: width 0.4s ease-in-out;
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(81, 91, 112);
+    background-color: rgb(22, 31, 58);
+    color: white;
+}
+label{
+    color: rgb(146, 141, 141);
+    padding-bottom: 10px;
+}
+button{
+    margin-left: 45%;
+    padding: 10px;
+    color:white;
+    background-color: rgb(22, 31, 58);
+}
+input:focus{
+    /*background-image: linear-gradient(to right, rgb(33, 34, 31) , rgb(29, 25, 22)));  */
+    width: 100%;
+}
+textarea{
+    background: transparent;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background:transparent;
+    resize: none;
+    color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(233, 229, 229);
+    font-size: 20px;
+    font-family:cursive;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(236, 223, 223);
+    font-size: 20px;
+    font-family:cursive;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(184, 169, 169);
+    font-size: 20px;
+    font-family:cursive;
+  }
+.enterinfo{
+    /*background-image: linear-gradient(to right, rgb(24, 22, 22) , rgb(31, 28, 24));  */
+    padding: 30px;
+    position: relative;
+    z-index: ;
+}

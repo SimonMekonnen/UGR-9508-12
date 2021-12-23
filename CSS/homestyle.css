@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing:border-box;
+    
+}
+.header__image img, .Friends img{
+    height: 200px;
+    width: 200px;
+    border-radius:100%;
+    margin-top: 20px;
+    
+}
+.header__image{
+    background: url(../images/ll.jfif) no-repeat;
+    background-size: cover;
+    
+}
+.name{
+    float: right;
+    margin-right:58%;
+    margin-top: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-family: garamond,serif;
+    font-weight: bold;
+    position: absolute;
+
+}
+header{
+    z-index: 10;
+}
+
+
+body{
+    background-color:black ;
+}
+section{
+    z-index: -1;
+    position: relative;
+    background-color: rgb(214, 206, 206);
+    padding: 5%;
+    
+}
+
+.section__mytext{
+    margin-left: 0;
+  
+    text-align: center;
+    margin-top: 0;
+    height : ;
+
+    /*box-shadow: 10px 10px 8px #888888;*/
+    padding: 10px 10px;
+    overflow: none;
+    display: block;
+    color: black;
+    
+   
+}
+.section__mytext .mytext__title{
+    text-align: center;
+    
+    
+    color: black;
+    overflow: none;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    
+    
+
+}
+.section__mytext .mytext__text{
+    color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+    font-size: x-large;
+}
+
+.section__mytext p{
+    padding: 20px;
+}
+.mytext__title{
+    text-align: center;
+    /* margin-top: 20px; */
+    /* margin-bottom: -10px */
+    
+    
+}
+.mytext__text{
+    font-size: large;
+}
+
+.Friends{
+    background-color:black;
+    height: ;
+    
+    margin-top: 20px;
+    text-align: center;
+    
+   
+}
+
+.Friends__socials {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    
+    gap: 2rem;
+    font-family: sans-serif;
+
+
+    
+}
+.Friends__note{
+    
+    margin: 1rem;
+}
+.Friends__discription{
+    color: white;
+}
+.Friends__title{
+    color: white;
+    font-family:  Courier;
+    font-style: italic;
+    padding: 20px;
+    font-size: 30px;
+}
+.Friends__follow{
+    margin: 10px;
+
+}
+.Friends__follow a{
+    background-color:transparent;
+    padding: 8px;
+    
+    color: #d4d3d3;
+    border: 3px solid #e7b4b4
+}
+.Friends__follow a:hover{
+    background-color: #e1a5a5;
+    color: white;
+    border-radius: 8px;
+    transition: .5s;
+    font-size: px;
+
+}
